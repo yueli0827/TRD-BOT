@@ -99,8 +99,6 @@ python feature_extraction.py \
     --output_base_path PATH_TO_FEATURE_OUTPUT
 ```
 
-By default, features are extracted from all frames. Use `--num_frames N` only when uniform temporal subsampling is required.
-
 The output includes:
 
 ```text
@@ -197,4 +195,4 @@ The clustering and cluster-number estimation components are based on or related 
 - Hierarchical Clustering
 - [DeepDPM](https://github.com/BGU-CS-VIL/DeepDPM)
 
-We also thank the authors of REASSEMBLE, JIGSAWS, and the related open-source projects for making their datasets and implementations publicly available.
+The experiments use the REASSEMBLE, JIGSAWS, and NursBot datasets. We sincerely thank the authors and maintainers of these datasets and open-source projects for making their work publicly available.

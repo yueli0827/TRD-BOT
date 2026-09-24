@@ -152,14 +152,6 @@ python postpromoting.py \
     --windows 5 10 20
 ```
 
-If `--temporal-width` is omitted, the implementation automatically uses
-
-```text
-w = max(1, ceil(0.02 * J))
-```
-
-where `J` is the number of frames.
-
 The main hyperparameters used in the paper are:
 
 ```text
@@ -180,7 +172,6 @@ The paper reports the following metrics:
 - Segmental F1 at IoU threshold 0.50 (F1@50)
 - Boundary F1
 
-For Boundary F1, a predicted boundary is matched to a ground-truth boundary when their temporal distance is within 5 frames under one-to-one matching.
 
 ## Acknowledgement
 

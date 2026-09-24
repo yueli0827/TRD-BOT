@@ -26,8 +26,6 @@ conda activate TRD_BOT
 pip install -r requirements.txt
 ```
 
-If a CUDA-specific PyTorch build is required, please install the appropriate PyTorch 2.1+ version for your CUDA environment before installing the remaining dependencies.
-
 ## Datasets
 
 TRD-BOT is evaluated on six robotic manipulation tasks from three datasets:

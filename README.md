@@ -83,12 +83,6 @@ For the Basic configuration, set:
 --beta 0
 ```
 
-If the GPU does not support bfloat16, use:
-
-```bash
---precision float32
-```
-
 ### Feature Extraction
 
 After training, use the saved student checkpoint to extract frame-level features.

@@ -1,0 +1,26 @@
+NO ACTION                     			 G0
+PREPARATORY MOVEMENT          	 G1
+FORWARD MOVEMENT             		 G2
+BACKWARD MOVEMENT              	 G3
+LIFTING ACTION                 			 G4
+LIFTING ACTION1               			 G5
+LOWERING ACTION              		 G6
+ARM MOVEMENT                  		 G7
+EMBRACING ACTION               		 G8
+CUP-APPROACHING MOVEMENT     G9
+GRASPING ACTION                		 G10
+STOP1                         				 G11
+STOP2                         				 G12
+STOP3                          				 G13
+WATER-POURING PREPARATION      G14
+WATER-POURING ACTION           	 G15
+WATER-POURING ACTION1          	 G16
+WATER-POURING COMPLETION       G17
+WATER CUP-LOWERING ACTION      G18
+FRUIT-APPROACHING MOVEMENT  G19
+PLACEMENT PREPARATION               G20
+RELEASE ACTION                 		 G21
+RELEASE ACTION1                		 G22
+HOMING MOVEMENT                		 G23
+
+
